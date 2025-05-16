@@ -2,7 +2,10 @@
 {
   home = {
     packages = with pkgs; [
-      hello
+      ripgrep fd bottom
+      gitui
+      plantuml
+      mdbook mdbook-pdf mdbook-plantuml
     ];
 
     # This needs to actually be set to your username
