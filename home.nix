@@ -6,6 +6,7 @@
       gitui
       plantuml
       mdbook mdbook-pdf mdbook-plantuml
+      mdbook-toc mdbook-footnote
     ];
 
     # This needs to actually be set to your username
