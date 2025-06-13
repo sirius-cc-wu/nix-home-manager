@@ -11,6 +11,7 @@
       nodejs
       (pkgs.python313.withPackages (ppkgs: [
         ppkgs.pytest
+        ppkgs.pip
       ]))
     ];
 
