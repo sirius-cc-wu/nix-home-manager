@@ -9,6 +9,7 @@
       mdbook-toc mdbook-footnote
       zellij
       nodejs
+      python314
     ];
 
     # This needs to actually be set to your username
