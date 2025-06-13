@@ -9,7 +9,9 @@
       mdbook-toc mdbook-footnote
       zellij
       nodejs
-      python314
+      (pkgs.python313.withPackages (ppkgs: [
+        ppkgs.pytest
+      ]))
     ];
 
     # This needs to actually be set to your username
