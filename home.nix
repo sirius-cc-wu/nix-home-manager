@@ -2,7 +2,7 @@
 {
   home = {
     packages = with pkgs; [
-      ripgrep fd bottom
+      tree ripgrep fd bottom
       gitui
       plantuml
       mdbook mdbook-pdf mdbook-plantuml
