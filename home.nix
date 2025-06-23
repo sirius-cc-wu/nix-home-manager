@@ -8,6 +8,7 @@
       mdbook mdbook-pdf mdbook-plantuml
       mdbook-toc mdbook-footnote
       zellij
+      nushell
       nodejs
       (pkgs.python313.withPackages (ppkgs: [
         ppkgs.pytest
