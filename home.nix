@@ -10,7 +10,7 @@
       mdbook-toc mdbook-footnote
       zellij
       nushell
-      nodejs
+      nodejs fnm
       (pkgs.python313.withPackages (ppkgs: [
         ppkgs.pytest
         ppkgs.pip
