@@ -4,6 +4,7 @@
     packages = with pkgs; [
       tree ripgrep fd bottom
       gitui
+      neovim
       plantuml
       mdbook mdbook-pdf mdbook-plantuml
       mdbook-toc mdbook-footnote
