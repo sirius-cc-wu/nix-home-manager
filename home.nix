@@ -14,6 +14,9 @@
       (pkgs.python313.withPackages (ppkgs: [
         ppkgs.pytest
         ppkgs.pip
+        ppkgs.pandas
+        ppkgs.openpyxl
+        ppkgs.jinja2
       ]))
     ];
 
