@@ -17,6 +17,10 @@
         ppkgs.pandas
         ppkgs.openpyxl
         ppkgs.jinja2
+        ppkgs.markdown
+        ppkgs.lxml
+        ppkgs.html5lib
+        ppkgs.beautifulsoup4
       ]))
     ];
 
