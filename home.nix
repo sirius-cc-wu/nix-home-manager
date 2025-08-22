@@ -21,6 +21,8 @@
         ppkgs.lxml
         ppkgs.html5lib
         ppkgs.beautifulsoup4
+        ppkgs.pypandoc
+        ppkgs.xlsxwriter
       ]))
     ];
 
