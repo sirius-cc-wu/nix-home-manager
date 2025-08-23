@@ -11,6 +11,7 @@
       zellij
       nushell
       nodejs fnm
+      gcc12
       (pkgs.python313.withPackages (ppkgs: [
         ppkgs.pytest
         ppkgs.pip
