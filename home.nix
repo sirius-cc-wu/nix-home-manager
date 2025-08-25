@@ -11,6 +11,10 @@
       zellij
       nushell
       nodejs fnm
+      texliveFull
+      noto-fonts
+      noto-fonts-cjk-sans
+      noto-fonts-cjk-serif
       (pkgs.python313.withPackages (ppkgs: [
         ppkgs.pytest
         ppkgs.pip
