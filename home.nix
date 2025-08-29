@@ -3,7 +3,8 @@
   home = {
     packages = with pkgs; [
       tree ripgrep fd bottom
-      gitui
+      git gitui
+      gnumake
       neovim
       plantuml
       mdbook mdbook-pdf mdbook-plantuml
@@ -11,7 +12,7 @@
       zellij
       nushell
       nodejs fnm
-      texliveFull
+      (texlive.combine { inherit (texlive) scheme-small collection-latexrecommended; })
       noto-fonts
       noto-fonts-cjk-sans
       noto-fonts-cjk-serif
