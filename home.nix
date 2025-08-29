@@ -15,6 +15,7 @@
       noto-fonts
       noto-fonts-cjk-sans
       noto-fonts-cjk-serif
+      gcc12
       (pkgs.python313.withPackages (ppkgs: [
         ppkgs.pytest
         ppkgs.pip
