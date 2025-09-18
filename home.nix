@@ -13,10 +13,6 @@
       zellij
       nushell
       nodejs fnm
-      (texlive.combine { inherit (texlive) scheme-full; })
-      noto-fonts
-      noto-fonts-cjk-sans
-      noto-fonts-cjk-serif
       gcc12
       stdenv.cc.cc.lib
       (pkgs.python313.withPackages (ppkgs: [
