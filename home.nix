@@ -1,5 +1,6 @@
 { lib, pkgs, ... }:
 {
+  targets.genericLinux.enable = true;
   home = {
     packages = with pkgs; [
       tree ripgrep fd bottom
@@ -12,11 +13,12 @@
       zellij
       nushell
       nodejs fnm
-      (texlive.combine { inherit (texlive) scheme-small collection-latexrecommended; })
+      (texlive.combine { inherit (texlive) scheme-full; })
       noto-fonts
       noto-fonts-cjk-sans
       noto-fonts-cjk-serif
       gcc12
+      stdenv.cc.cc.lib
       (pkgs.python313.withPackages (ppkgs: [
         ppkgs.pytest
         ppkgs.pip
